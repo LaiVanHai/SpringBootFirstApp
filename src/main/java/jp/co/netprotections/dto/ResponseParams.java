@@ -6,6 +6,11 @@ public class ResponseParams {
 	private int count;
 	private List<CreatureDTO> results;
 
+	public ResponseParams(int count, List<CreatureDTO> results) {
+		this.count = count;
+		this.results = results;
+	}
+	
 	public int getCount() {
 		return count;
 	}
